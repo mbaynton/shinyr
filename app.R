@@ -105,4 +105,4 @@ server <- function(input, output, session) {
 # Run the app
 # ////////////////////////////////////////////////////////////////////////////
 Sys.sleep(10)
-shinyApp(ui = ui, server = server)
+spinyApp(ui = ui, server = server)
